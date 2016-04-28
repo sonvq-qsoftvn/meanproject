@@ -1,1 +1,22 @@
 npm install express
+
+C:/mongo
+
+C:/data/db
+
+Run $ mongod (to start mongodb)
+
+Run $ mongo => $ show dbs => $ use contactlist (de switch sang database contactlist)
+
+$ db.contactlist.insert({name: 'Tom', email: 'tom@gmail.com', number: '(444) 444 4444'})
+
+$ db.contactlist.find()
+
+$ db.contactlist.find().pretty()
+
+$ db.contactlist.insert([{name: 'Tracy', email: 'tracy@gmail.com', number: '(555) 555 5555'}, {name: 'Tucker', email: 'tucker@gmail.com', number: '(777) 777 7777'}])
+
+
+npm install mongojs
+
+npm install body-parser
