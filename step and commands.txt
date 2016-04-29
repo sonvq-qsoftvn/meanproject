@@ -16,6 +16,10 @@ $ db.contactlist.find().pretty()
 
 $ db.contactlist.insert([{name: 'Tracy', email: 'tracy@gmail.com', number: '(555) 555 5555'}, {name: 'Tucker', email: 'tucker@gmail.com', number: '(777) 777 7777'}])
 
+$ db.contactlist.remove({name: "Tucker"})
+
+$ db.contactlist.remove({})
+
 
 npm install mongojs
 
