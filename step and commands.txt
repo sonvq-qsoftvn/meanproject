@@ -24,3 +24,5 @@ $ db.contactlist.remove({})
 npm install mongojs
 
 npm install body-parser
+
+to run the project $node server
