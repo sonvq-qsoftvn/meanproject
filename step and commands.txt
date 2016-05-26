@@ -26,3 +26,10 @@ npm install mongojs
 npm install body-parser
 
 to run the project $node server
+
+
+To test mongodb
+> C:\mongo\bin>mongo
+> db.test.insert({hello: "world"});
+> db.test.insert({hello: "world"});
+> db

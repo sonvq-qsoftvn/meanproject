@@ -63,4 +63,4 @@ app.put('/contactlist/:id', function (request, response) {
 });
 
 app.listen(3000);
-console.log("Welcome, server is running on port 3000");
+console.log("Welcome, server is running on http://127.0.0.1:3000");
